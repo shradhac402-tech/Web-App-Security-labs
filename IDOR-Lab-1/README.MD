@@ -16,6 +16,7 @@ IDOR is a vulnerability where an attacker can access other users' data by changi
 
 ## Proof / Screenshots
 (Screenshots will be added here - I'm uploading them)
+
 - Login with different ID
 - Accessing other user account
 
