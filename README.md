@@ -7,14 +7,18 @@ Masters IT | 5+ Yrs IT Security | Aspiring AppSec Engineer for UK | US | Switzer
 - Hands-on Labs from PortSwigger
 
 ## 📂 Labs Completed
--  Lab 1: IDOR - Insecure Direct Object Reference
--  Lab 2: XSS Stored  
--  Lab 3: SQL Injection UNION
+- Lab 1: IDOR - Insecure Direct Object Reference ✅ Completed
+- Lab 2: DVWA - XSS, SQLi, CSRF ✅ Completed [ TryHackMe ]
+- Lab 3: OWASP Top 10 2024 - In Progress
 
 ## 🛠️ Tools
 Burp Suite | OWASP Juice Shop | Python | GitHub
 
 ## 🎯 Goal
-AppSec Engineer Role in UK/US ( £65k+ / $110k+ )
-
+AppSec Engineer Role in UK/US 
+## 📈 Progress Tracker
+- [x] GitHub Setup
+- [x] DVWA Notes Added
+- [x] Commit Hash Learned: 1b1fb3c
+- [ ] OWASP Top 10 Notes
 Connect: LinkedIn - Shradha chaudhari
