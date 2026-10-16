@@ -1,0 +1,6 @@
+Lab: SQL Injection - Querying Database Type and Version on Oracle
+
+Payload:
+' UNION SELECT NULL, banner FROM v$version--
+Description:
+I performed a UNION-based SQL injection attack to retrieve the database version from the v$version table. First, I used ORDER BY to determine that the query has 2 columns. Then I identified the column that supports string data and injected the payload to extract the Oracle 
