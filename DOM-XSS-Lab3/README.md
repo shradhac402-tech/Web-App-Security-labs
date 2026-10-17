@@ -1,8 +1,8 @@
 # Day 03 - DOM XSS Lab
 
-###  Vulnerability
+### Vulnerability
 DOM-based XSS - Client-side JS flaw. Server safe, browser hacked.
 
-###  Vulnerable - index.php
+### Vulnerable - index.php
 ```js
 document.write("Selected Language: " + lang);
