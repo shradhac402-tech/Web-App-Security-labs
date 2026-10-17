@@ -1,24 +1,23 @@
 # Web-App-Security-labs
-Masters IT | 5+ Yrs IT Security | Aspiring AppSec Engineer for UK | US | Switzerland
 
-## 🔐 What I'm Learning
-- OWASP Top 10 2024
-- Burp Suite Certified Practitioner (BSCP) Prep
-- Hands-on Labs from PortSwigger
+> Masters IT | 5+ Yrs IT Security | Aspiring AppSec Engineer for UK | US | Switzerland
 
-## 📂 Labs Completed
-- Lab 1: IDOR - Insecure Direct Object Reference ✅ Completed
-- Lab 2: DVWA - XSS, SQLi, CSRF ✅ Completed [ TryHackMe ]
-- Lab 3: OWASP Top 10 2024 - In Progress
+30 Days - 30 Labs Challenge to master OWASP Top 10
 
-## 🛠️ Tools
-Burp Suite | OWASP Juice Shop | Python | GitHub
+### Labs Completed
 
-## 🎯 Goal
-AppSec Engineer Role in UK/US 
-## 📈 Progress Tracker
-- [x] GitHub Setup
-- [x] DVWA Notes Added
-- [x] Commit Hash Learned: 1b1fb3c
-- [ ] OWASP Top 10 Notes
-Connect: LinkedIn - Shradha chaudhari
+| Day 01 | IDOR-Lab-1 | Insecure Direct Object Reference |  Done |
+| Day 03 | DOM-XSS-Lab3 | DOM-based Cross Site Scripting |  Done |
+| Day 02 | DVWA-Notes | Setup & Learning Notes |  Done |
+
+### What I Learn
+- OWASP Top 10 2021
+- Vulnerable code → Secure fix
+- Real-world exploit payloads
+
+### Connect
+LinkedIn: www.linkedin.com/in/shradha-chaudhari-b11025417
+Goal: AppSec Engineer | Bug Bounty Hunter
+
+---
+**Day 03 Highlight:** Fixed DOM XSS by using `innerText` instead of `document.write` - Client-side validation matters!
