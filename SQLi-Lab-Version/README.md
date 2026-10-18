@@ -23,6 +23,11 @@ Make the application display string: `8.0.42-0ubuntu0.20.04.1`
 - ORDER BY for column count
 - UNION SELECT for data extraction
 - Commenting with `-- -`
+- 
+## Proof of Concept
+![Lab Solved](images/lab-screenshot.png)
 
+### Screenshot
+![SQLi Lab Solved](SQLi-Lab-Version/screenshot.jpg)
 ### Mitigation
 Use parameterized queries / Prepared Statements.
